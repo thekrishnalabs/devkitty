@@ -6,7 +6,7 @@
 
 **100+ Free Developer Tools • Zero Signup • Privacy First**
 
-🌐 **Website:** https://devkitty.in *(Update when live)*
+🌐 **Website:** https://devkitty.in *(coming soon)*
 
 ---
 
