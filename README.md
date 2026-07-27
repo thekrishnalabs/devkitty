@@ -175,7 +175,6 @@ Every suggestion is reviewed.
 - shadcn/ui
 - Lucide Icons
 
-*(Update this list whenever the stack changes.)*
 
 ---
 
