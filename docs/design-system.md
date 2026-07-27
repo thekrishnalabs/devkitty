@@ -2,13 +2,13 @@
 
 > Silent luxury for developer tools.
 
-This document defines the visual language for DevKitty. Every page, component, and interaction should feel like part of one premium developer workstation.
+This document defines the visual language for DevKitty. Every page, component, and interaction must behave like part of one premium developer workstation.
 
 ---
 
 ## Design Principles
 
-DevKitty should feel:
+DevKitty feels:
 
 - Calm
 - Precise
@@ -17,21 +17,54 @@ DevKitty should feel:
 - Minimal
 - Timeless
 
-The interface is not decoration. It is part of the product value.
+The interface is not decoration. It is part of the product.
 
 ---
 
 ## Core Rules
 
 - Dark mode first.
-- Use one primary accent only.
-- Prefer borders over shadows.
-- Prefer clarity over visual noise.
-- Prefer consistency over novelty.
-- Keep motion subtle and functional.
-- Keep the layout clean and predictable.
+- One accent colour only.
+- Borders create structure.
+- Spacing creates hierarchy.
+- Typography creates personality.
+- Motion stays subtle and functional.
+- Layout stays clean and predictable.
 
-Do not introduce purple, neon, gradients, glassmorphism, or loud startup aesthetics.
+Purple, neon, gradients, glassmorphism, and loud startup styling are not used.
+
+---
+
+## Stack
+
+### Application
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
+
+### Fonts
+
+- Display: Geist
+- Body: IBM Plex Sans
+- Mono: JetBrains Mono
+
+### Deployment and tooling
+
+- GitHub
+- Lovable
+- Netlify or Vercel for deployment when needed
+- GitHub Actions for repository automation
+
+### Browser support
+
+- Chrome
+- Edge
+- Firefox
+- Safari
 
 ---
 
@@ -56,7 +89,7 @@ Do not introduce purple, neon, gradients, glassmorphism, or loud startup aesthet
 - `accent`: `#C47A3A`
 - `accent-soft`: `rgba(196, 122, 58, 0.18)`
 
-Use copper only for active states, primary actions, focus, links, and selected elements.
+Copper is used for active states, primary actions, focus, links, selected elements, and key highlights.
 
 ### Status
 
@@ -68,26 +101,35 @@ Use copper only for active states, primary actions, focus, links, and selected e
 
 ## Typography
 
-### Recommended stack
+### Font roles
 
-- Display: `Neue Haas Grotesk` or `Geist`
-- Body: `IBM Plex Sans`
-- Mono: `Berkeley Mono` or `JetBrains Mono`
+- Display: Geist
+- Body: IBM Plex Sans
+- Mono: JetBrains Mono
 
 ### Type rules
 
-- Use strong hierarchy.
-- Keep headings restrained, not loud.
-- Avoid excessive tracking.
-- Code and tool output must always use monospace.
+- Headings stay restrained.
+- Body copy stays readable.
+- Code and tool output use monospace.
+- No excessive tracking.
+- No decorative type effects.
+
+### Hierarchy
+
+- H1: large, confident, compact
+- H2: clear section headings
+- H3: supporting labels
+- Body: readable at small and large sizes
+- Mono: for code, values, hashes, JSON, and outputs
 
 ---
 
 ## Spacing
 
-Use an 8px spacing system.
+DevKitty uses an 8px spacing system.
 
-Recommended scale:
+### Scale
 
 - `4px`
 - `8px`
@@ -99,7 +141,8 @@ Recommended scale:
 - `48px`
 - `64px`
 
-Use larger spacing more often than dense layouts.
+Large whitespace is part of the brand.
+Dense layouts are avoided.
 
 ---
 
@@ -110,19 +153,19 @@ Use larger spacing more often than dense layouts.
 - Inputs: `8px`
 - Dialogs: `16px`
 
-Avoid pill buttons.
-Avoid overly soft shapes.
+Pill buttons are not used.
+Excessively soft shapes are not used.
 
 ---
 
 ## Borders and Elevation
 
-- Prefer 1px hairline borders.
-- Shadows should be minimal or absent.
-- Use elevation sparingly.
-- Let spacing and borders create structure.
+- Use 1px hairline borders.
+- Keep shadows minimal or absent.
+- Do not use glow for structural hierarchy.
+- Let spacing and borders create depth.
 
-DevKitty should feel machined, not glossy.
+DevKitty feels machined, not glossy.
 
 ---
 
@@ -132,7 +175,8 @@ DevKitty should feel machined, not glossy.
 
 - Copper fill
 - Dark text
-- Slightly brighter hover state
+- Brighter hover state
+- Clear focus state
 
 ### Secondary button
 
@@ -145,22 +189,22 @@ DevKitty should feel machined, not glossy.
 
 - Error red only when needed
 
-Never use glowing buttons.
-Never use loud gradients.
+Glowing buttons are not used.
+Loud gradients are not used.
 
 ---
 
 ## Inputs
 
-Inputs should be calm and clear.
+Inputs are calm and clear.
 
 - Dark surface
 - Thin border
 - Copper focus ring
 - No glow
-- No heavy shadows
+- No heavy shadow
 
-States:
+### Input states
 
 - Default: border only
 - Hover: slightly lighter surface
@@ -171,51 +215,57 @@ States:
 
 ## Cards
 
-Cards should:
+Cards sit on dark surfaces with thin borders and generous internal spacing.
 
-- Sit on slightly raised dark surfaces
-- Use thin borders
-- Keep generous internal spacing
-- Avoid decorative clutter
-- Feel like panels in a premium desktop app
+Cards avoid decorative clutter.
+Cards feel like panels in a premium desktop app.
 
-Use cards for tool groups, search results, feature blocks, and docs sections.
+Cards are used for:
+
+- Tool groups
+- Search results
+- Feature blocks
+- Docs sections
+- Empty state containers
 
 ---
 
 ## Sidebar
 
-The sidebar should feel like a premium developer workspace.
+The sidebar feels like a premium developer workspace.
 
-Rules:
+### Sidebar rules
 
-- Keep it dark and stable
-- Use monochrome icons by default
-- Highlight active items with copper
-- Use a slim copper indicator bar for active state
-- Avoid coloured selection blocks
+- Dark and stable background
+- Monochrome icons by default
+- Copper for active items
+- Slim copper indicator bar for active state
+- No coloured selection blocks
 
 ---
 
 ## Icons
 
-Use `Lucide` or a similarly clean outline icon set.
+Icon library:
+
+- Lucide React
 
 Icon rules:
 
-- 2px stroke feel
 - Outline only
+- 2px stroke feel
 - No decorative fills
 - No emoji
 - No playful shapes
 
-Icons should support navigation, not compete with the content.
+Icons support navigation and utility.
+They do not compete with content.
 
 ---
 
 ## Motion
 
-Motion should feel mechanical and refined.
+Motion is mechanical and refined.
 
 - Duration: `120ms` to `180ms`
 - Easing: ease-out
@@ -223,7 +273,8 @@ Motion should feel mechanical and refined.
 - No elastic movement
 - No excessive parallax
 
-Motion should communicate state changes, not entertain.
+Motion communicates state changes.
+Motion is never decorative.
 
 ---
 
@@ -235,13 +286,13 @@ Motion should communicate state changes, not entertain.
 - Predictable structure
 - Responsive from mobile to desktop
 
-Every tool page should follow the same family of layouts.
+Every tool page follows the same family of layouts.
 
 ---
 
 ## Tool Page Template
 
-Every tool page should generally contain:
+Every tool page contains:
 
 1. Page title
 2. Short description
@@ -251,13 +302,13 @@ Every tool page should generally contain:
 6. Related tools
 7. FAQ or notes, when relevant
 
-Do not invent a completely new structure for each tool.
+Each tool stays within this structure.
 
 ---
 
 ## Empty States
 
-Empty states should be minimal and useful.
+Empty states stay minimal and useful.
 
 - Short copy
 - No cartoon illustrations
@@ -268,28 +319,28 @@ Empty states should be minimal and useful.
 
 ## Loading States
 
-Use simple loading states.
+Loading states stay simple.
 
 - Skeletons
 - Minimal spinner if needed
-- Logo animation only when it feels native to the flow
+- Logo animation only when it fits the flow
 
 ---
 
 ## Responsive Behaviour
 
 - Mobile-first structure
-- Sidebar collapses gracefully
+- Sidebar collapses cleanly
 - Controls remain usable on small screens
 - Touch targets remain accessible
 
-The experience must feel native on both laptop and mobile.
+The experience stays native on laptop and mobile.
 
 ---
 
 ## Accessibility
 
-DevKitty must support:
+DevKitty supports:
 
 - Keyboard navigation
 - Visible focus states
@@ -304,13 +355,15 @@ Accessibility is part of the premium experience.
 
 ## Token Usage Rules
 
-- Use one accent colour only.
-- Avoid introducing ad hoc colours inside features.
+- One accent colour only.
+- No ad hoc colours inside features.
 - Reuse tokens instead of hardcoding new shades.
-- Keep the whole product visually unified.
+- Keep the product visually unified.
 
 ---
 
-## Golden Rule
+## Implementation Standard
 
-If a new component does not look like it belongs inside a premium developer workstation, it does not belong in DevKitty.
+New components, pages, and tool screens must follow this system.
+
+If a component does not look like it belongs inside a premium developer workstation, it does not belong in DevKitty.
