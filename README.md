@@ -10,7 +10,7 @@
 
 ---
 
-*Built for developers who value speed, simplicity and precision.*
+*Built for developers who value speed, precision, and silent luxury.*
 
 </div>
 
@@ -18,66 +18,61 @@
 
 ## About DevKitty
 
-DevKitty is a premium collection of fast, privacy-first developer tools that run entirely in your browser.
+DevKitty is a premium browser-based developer tools platform built around one simple idea:
 
-Whether you're formatting JSON, decoding Base64, testing regular expressions, generating hashes, converting timestamps, or debugging APIs, DevKitty provides a consistent, distraction-free experience without requiring an account.
+> the most common developer utilities should feel fast, private, and consistent in one premium workspace.
+
+It brings together the tools developers use every day for JSON, encoding, CSS, images, network debugging, HTML, JavaScript, and more.
 
 No installation.
-
 No signup.
-
-No tracking-heavy experience.
-
-Just tools that work.
+No unnecessary friction.
 
 ---
 
-# Why DevKitty?
+## Why DevKitty Exists
 
-Modern developers waste too much time jumping between dozens of small utility websites.
+The web is full of scattered utility sites.
 
-DevKitty brings everything together in one carefully designed workspace.
+One site formats JSON.
+Another site decodes Base64.
+Another site generates hashes.
+Another site tests regex.
 
-Our principles are simple:
+Most of them are inconsistent, cluttered, or built like temporary demos.
 
-- ⚡ Fast
-- 🔒 Privacy First
-- 🎯 Zero Signup
-- 🖥 Client-side whenever possible
-- ♿ Accessible
-- 🌍 Free forever
+DevKitty takes a different path.
 
----
-
-# Tool Categories
-
-Current and upcoming categories include:
-
-- JSON & Data
-- Encoding & Cryptography
-- Text Utilities
-- Regex Tools
-- UUID & ID Generators
-- Date & Time
-- CSS Utilities
-- HTML Utilities
-- JavaScript Utilities
-- SQL Utilities
-- Color Tools
-- Image Tools
-- API & Network Tools
-- Developer Utilities
-- Markdown Tools
-- Security Helpers
-- Browser Utilities
-
-Our long-term goal is to build **100+ carefully crafted developer tools**.
+It is built as a premium developer workstation on the web with one visual language, one design system, and one product standard.
 
 ---
 
-# Design Philosophy
+## What DevKitty Includes
 
-DevKitty follows a "Silent Luxury" design language inspired by products like:
+### Current tool families
+
+- JSON and data utilities
+- Encoding and cryptography helpers
+- CSS utilities
+- HTML tools
+- JavaScript tools
+- Image utilities
+- Network and API tools
+- Developer workflow helpers
+- Text utilities
+- Regex tools
+- Date and time tools
+- ID and random generators
+
+### Planned expansion
+
+DevKitty is being built toward 100+ carefully crafted tools.
+
+---
+
+## Design Philosophy
+
+DevKitty follows a silent-luxury design language inspired by products like:
 
 - Linear
 - Raycast
@@ -85,112 +80,109 @@ DevKitty follows a "Silent Luxury" design language inspired by products like:
 - Apple Developer Documentation
 - Bloomberg Terminal
 - Arc Browser
+- Muji
+- Aesop
 
-The interface focuses on:
+The interface is dark, calm, minimal, and technical.
 
-- Minimalism
-- Precision
-- Consistency
-- Excellent typography
-- Dark mode first
-- Zero visual clutter
+The product relies on:
+
+- precision
+- spacing
+- typography
+- contrast
+- consistency
+- restraint
 
 ---
 
-# Privacy
+## Privacy
 
-Privacy is a core feature—not an afterthought.
+Privacy is a core feature.
 
 Whenever technically possible:
 
-- Data never leaves your browser.
-- Files are processed locally.
-- No unnecessary uploads.
-- No account required.
+- Data stays in the browser
+- Files stay local
+- Uploads are avoided
+- Accounts are not required
+- Tracking-heavy flows are avoided
 
 ---
 
-# Roadmap
+## Roadmap
 
-## Phase 1
+### Foundation
 
 - Premium website
-- Core developer tools
+- Core tools
 - Global search
 - Responsive UI
+- Documentation structure
 
-## Phase 2
+### Expansion
 
 - 50+ production-ready tools
-- Better documentation
+- Search filters
+- Related tools
 - Keyboard shortcuts
-- Progressive Web App
+- Better mobile support
 
-## Phase 3
+### Platform
 
 - 100+ tools
-- Browser Extension
+- Progressive Web App
+- Browser extension
 - CLI
 - Public API
-
-## Phase 4
-
-- AI-powered developer helpers
-- Plugin ecosystem
-- Community contributions
+- Developer SDK
 
 ---
 
-# Contributing
-
-DevKitty is growing.
-
-We welcome:
-
-- Bug reports
-- Tool suggestions
-- UX improvements
-- Documentation improvements
-
-Please check the future **Contributing Guide** before opening a Pull Request.
-
----
-
-# Feature Requests
-
-Missing your favourite developer tool?
-
-Open an Issue with the **Tool Request** template.
-
-Every suggestion is reviewed.
-
----
-
-# Tech Stack
+## Tech Stack
 
 - React
 - TypeScript
 - Vite
 - Tailwind CSS
 - shadcn/ui
-- Lucide Icons
-
-
----
-
-# Project Status
-
-🚧 Active Development
-
-DevKitty is under continuous development and new tools are added regularly.
+- Lucide React
 
 ---
 
-# Vision
+## Contributing
 
-Our mission is simple:
+DevKitty welcomes:
 
-> Build the most beautiful, privacy-first and developer-friendly toolbox on the web.
+- Bug reports
+- Tool requests
+- UX improvements
+- Accessibility fixes
+- Documentation improvements
+
+Please read `CONTRIBUTING.md` before opening a pull request.
+
+---
+
+## Feature Requests
+
+Missing a tool you use often?
+
+Open a tool request using the repository templates.
+
+---
+
+## Project Status
+
+🚧 Active development
+
+DevKitty is being built in public with a focus on quality, consistency, and long-term usefulness.
+
+---
+
+## Vision
+
+> Build the most beautiful, privacy-first, developer-friendly toolbox on the web.
 
 ---
 
@@ -200,6 +192,6 @@ Our mission is simple:
 
 **Made for developers.**
 
-⭐ Star this repository if you find DevKitty useful.
+⭐ Star this repository if DevKitty is useful to you.
 
 </div>
