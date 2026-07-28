@@ -1,6 +1,6 @@
 # DevKitty Changelog
 
-This changelog records notable changes to the public repository and the DevKitty product direction.
+This changelog records notable changes in the public DevKitty repository and its product direction.
 
 ---
 
@@ -9,21 +9,24 @@ This changelog records notable changes to the public repository and the DevKitty
 ### Added
 
 - Brand vision and product philosophy documents
-- Premium design system specification
+- Strict design system specification
 - Branding rules
 - Contribution guide
 - Code of conduct
 - Security policy
 - Support guide
 - FAQ
+- Architecture document
 - GitHub issue templates
-- GitHub discussion template
+- Discussion template
 - Link-check workflow
+- Detailed tool family documentation
 
 ### Updated
 
-- README refined for a premium developer product position
-- Design system rewritten as a strict specification
+- README rewritten for a sharper public-facing presentation
+- Design system rewritten as a strict product specification
+- Tool documentation expanded with detailed family guides
 
 ---
 
@@ -32,7 +35,7 @@ This changelog records notable changes to the public repository and the DevKitty
 ### Added
 
 - Public repository foundation
-- Documentation-first project structure
+- Documentation-first structure
 - Silent-luxury brand direction
 - Copper-based visual identity
 - Core GitHub community health files
@@ -42,4 +45,4 @@ This changelog records notable changes to the public repository and the DevKitty
 ## Notes
 
 DevKitty is being built in public as a premium developer platform.
-Future changelog entries will track documentation, design, and product milestones.
+Future entries will track documentation, design, and product milestones.
